@@ -7,7 +7,6 @@ function App() {
     <div className="app">
       <AppInfo />
       <div className="search-panel">
-        hello
         <SearchPanel />
       </div>
     </div>
