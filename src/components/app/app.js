@@ -10,7 +10,7 @@ function App() {
     { name: "Ivan", surname: "Mazepa", salary: "1900$", increase: false },
     { name: "Oleg", surname: "Vunnuk", salary: "700$", increase: true },
     {
-      name: "Volidumur",
+      name: "Volodumur",
       surname: "Zelenskiy",
       salary: "8200$",
       increase: false,
