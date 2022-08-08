@@ -43,7 +43,9 @@ class EmployeesAddForm extends Component {
           <button
             onClick={(e) => {
               e.preventDefault();
-              onAdd(name, salary);
+              if (name && salary) {
+                onAdd(name, salary);
+              }
               this.setState({
                 name: "",
                 salary: "",
